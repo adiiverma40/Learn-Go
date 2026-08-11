@@ -6,6 +6,19 @@ Demo repo to store Go Code as I learn them.
 
 what is go? A commpiled lang.
 
-`go mod init main`
+```
+```bash
+
+go mod init main
+
+```
+
+
+# Variables types 
+
+- int 
+- str 
+- float
+
 
 
