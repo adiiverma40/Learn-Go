@@ -52,8 +52,9 @@ func main() {
 	fmt.Println("==============================")
 
 	var index int = 3
-
-	score = append(score[:index])
+	fmt.Println(score)
+	score = append(score[:index], score[index+1:]...)
+	fmt.Println(score)
 
 }
 
